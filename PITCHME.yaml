@@ -1,0 +1,16 @@
+#Theme Setting(black, moon, night, beige, sky, white が設定可)
+theme : moon
+
+#Transition Setting(遷移時のアクション。convex, concave, default, fade, none, slide, zoom が設定可)
+transition : fade
+
+highlight : mono-blue
+vertical-center : true
+
+#Logo Setting
+logo : assets/logo.png
+
+slide-number: true
+footnote :  "© 2019 R.Ohta"
+mousewheel : true
+#autoslide : 5000
