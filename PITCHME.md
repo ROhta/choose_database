@@ -61,11 +61,43 @@
 ### datastore
 
 - RDB
-  - 列志向
-  - 行志向
+- NoSQL
+  - 列指向
+  - グラフ型
+  - KVS
+  - DocumentDB
+- 単なるstorage
+
++++
+
+#### RDB
+
+- ORACLE
+- SQL Server
+- DB2
+- MySQL
+- MariaDB
+- postgreSQL
+
++++
+
+#### NoSQL
+
+- 列指向
+  - Cassandra, HBase, Redshift
+- グラフ型
+  -Neo4j, Neptune
 - KVS
+  - Redis, Riak, DynamoDB
 - DocumentDB
-- 単なるストレージ
+  - MongoDB, CouchDB, Amazon DocumentDB
+
++++
+
+### storage
+
+- s3
+- サーバ上のローカルファイル
 
 ---
 
