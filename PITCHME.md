@@ -1,5 +1,7 @@
 ## 安易に立てるな
+
 ## データベース
+
 #### ～そのデータどこで持つ？～
 
 太田
@@ -63,6 +65,7 @@
 ---
 
 #### 使うならRedis
+
 - memcachedでできてRedisで出来ないことはない |
 - Redisでできてmemcahedで出来ないことはある |
   - データの半永続化 |
@@ -92,8 +95,8 @@
 - webSQL
 - IndexedDB
 
-
 ---
+
 ### cookie
 
 - 保存容量4KB~~オワコン~~
@@ -101,6 +104,7 @@
 - 有効期限設定あり
 
 ---
+
 ### localStorage
 
 - 保存容量5MB
@@ -111,6 +115,7 @@
 - 同一ドメイン内で有効
 
 ---
+
 ### sessionStorage
 
 - 保存容量5MB
@@ -119,13 +124,15 @@
 - 同一タブ内で有効
 
 ---
+
 ### webSQL
 
 - ブラウザ上でSQLiteが使える
-- 廃止されたからIndexedDBを使え、と[googleが言っている](https://developers.google.com/web/tools/lighthouse/audits/web-sql?hl=ja)
+- 廃止されたからIndexedDBを使え<br/>と[googleが言っている](https://developers.google.com/web/tools/lighthouse/audits/web-sql?hl=ja)
 
 ---
-### IndexedDB
+
+### Indexed DB
 
 - テーブル1つのみのRDB、というイメージ
   - 結合や外部キー制約はなし
@@ -139,19 +146,18 @@
 
 ### 使いどき
 
-- cookieとwebSQL
-  - 無い
-- webStorage
-  - 手軽に使いたい（保存容量少ない）とき
-  - 同期処理で問題ないとき
-  - データのタブ間共有をしたくないときのみsessionStorage
-- Indexed DB
-  - ガチな（保存容量・種類が多い）とき
-  - 非同期処理（トランザクション）の必要があるとき
-  - 検索したいとき
-  - 文字列以外も保存したいとき
+- cookieとwebSQLは無い |
+- webStorage |
+  - 手軽に使いたい（保存容量少ない）とき |
+  - 同期処理で問題ないとき |
+  - データのタブ間共有をしたくないときのみsessionStorage |
+- Indexed DB |
+  - ガチな（保存容量・種類が多い）とき |
+  - 非同期処理（トランザクション）の必要があるとき |
+  - 検索したいとき |
+  - 文字列以外も保存したいとき |
 
----
++++
 
 時間があれば実演
 
@@ -164,5 +170,6 @@
 『SRE サイトリライアビリティエンジニアリング -Googleの信頼を支えるエンジニアリングチーム』
 第31章 SREにおけるコミュニケーションとコラボレーションより
 
----?image=assets/audience.jpg
+---?image=./assets/audience.jpg
+
 # おわり
