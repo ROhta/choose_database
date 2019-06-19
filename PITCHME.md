@@ -159,10 +159,10 @@
 
 ### local Storage vs session Storage
 
-|| localStorage | weblStorage |
+|| localStorage | webStorage |
 | --- | --- | --- |
-| データの有効期限 | jsで消さない限り無限 | セッション内 |
-| データの有効範囲 | 同一ドメイン内 | タブ内 |
+| データの<br/>有効期限 | jsで消さない限り無限 | セッション内 |
+| データの<br/>有効範囲 | 同一ドメイン内 | タブ内 |
 
 ---
 
