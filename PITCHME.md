@@ -87,7 +87,7 @@
 - 列指向
   - Cassandra, HBase, Redshift
 - グラフ型
-  -Neo4j, Neptune
+  - Neo4j, Neptune
 - KVS
   - Redis, Riak, DynamoDB
 - DocumentDB
