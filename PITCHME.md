@@ -46,6 +46,8 @@
 - サーバサイド |
   - データストア |
     - ディスク |
+      - データベース |
+      - ストレージ |
     - インメモリ |
   - プログラム内 |
     - グローバル変数 |
@@ -58,7 +60,7 @@
 
 ---
 
-### datastore
+### database
 
 - RDB
 - NoSQL
@@ -66,7 +68,6 @@
   - グラフ型
   - KVS
   - DocumentDB
-- 単なるstorage
 
 +++
 
@@ -92,7 +93,7 @@
 - DocumentDB
   - MongoDB, CouchDB, Amazon DocumentDB
 
-+++
+---
 
 ### storage
 
